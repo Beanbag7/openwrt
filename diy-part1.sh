@@ -19,3 +19,4 @@
 # Lienol/openwrt-package
 # sed -i '$a src-git lienol https://github.com/Lancenas/lienol-openwrt-package.git' feeds.conf.default
 # sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall-packages.git' feeds.conf.default
+echo 'src-git netkeeper https://github.com/RuijieNetworksCommunity/feed-netkeeper;LUCI-LUA-UCITRACK' >>feeds.conf.default
