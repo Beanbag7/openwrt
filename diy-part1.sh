@@ -18,7 +18,6 @@
 echo 'src-git netkeeper https://github.com/RuijieNetworksCommunity/feed-netkeeper;master' >>feeds.conf.default
 # Lienol/openwrt-package
 # sed -i '$a src-git lienol https://github.com/Lancenas/lienol-openwrt-package.git' feeds.conf.default
-# sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall-packages.git' feeds.conf.default
-git clone https://github.com/RuijieNetworksCommunity/feed-netkeeper.git package/feed-netkeeper
+# sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall-packages.git' feeds.conf.defaul
 
 
